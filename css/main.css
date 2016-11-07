@@ -6,4 +6,8 @@ canvas {
   width: 200px;
   border: 1px solid gold; }
 
+.container {
+  margin: 0 auto;
+  width: 80%; }
+
 /*# sourceMappingURL=main.css.map */
