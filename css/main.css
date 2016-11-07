@@ -1,4 +1,9 @@
 h1 {
   font-size: 4em; }
 
+canvas {
+  height: 200px;
+  width: 200px;
+  border: 1px solid gold; }
+
 /*# sourceMappingURL=main.css.map */
