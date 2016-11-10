@@ -405,17 +405,17 @@ template {
 h1 {
   font-size: 4em; }
 
+.container {
+  margin: 0 auto;
+  width: 50%; }
+
+/**{
+	box-sizing: border-box;
+}*/
 canvas {
   height: 200px;
   width: 200px;
   border: 1px solid gold; }
-
-* {
-  box-sizing: border-box; }
-
-.container {
-  margin: 0 auto;
-  width: 50%; }
 
 ul {
   list-style: none;
@@ -435,10 +435,9 @@ ul {
 .blue {
   background-color: blue; }
 
-/*.selected{
-	border: 15px solid black;
-	height: 25px;
-	width:  25px;
-}*/
+.selected {
+  border: 15px solid black;
+  width: 25px;
+  height: 25px; }
 
 /*# sourceMappingURL=main.css.map */
