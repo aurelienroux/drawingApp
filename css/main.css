@@ -451,7 +451,7 @@ li {
 .blue {
   background-color: blue; }
 
-button {
+#newColor {
   background-color: tomato;
   border: none;
   border-radius: 5px;
@@ -460,17 +460,23 @@ button {
   margin: 10px auto;
   padding: 15px; }
 
-#newColor {
-  border: 1px solid gold; }
-
 span {
   height: 100px;
   width: 100px;
   background-color: #fff;
-  display: inline-block; }
+  display: inline-block;
+  margin: 15px;
+  vertical-align: top; }
 
 #colorSelector {
-  width: 50%;
+  width: 60%;
+  display: inline-block; }
+
+p {
+  vertical-align: middle; }
+
+label {
+  width: 60px;
   display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
