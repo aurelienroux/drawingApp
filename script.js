@@ -11,12 +11,10 @@ $("#newColor").on("click", function(){
 	$("#colorPanel").toggle();
 })
 
-var r = $("#red").val();
-var g = $("#green").val();
-var b = $("#blue").val();
-
-
 function changeColor(){
+	var r = $("#red").val();
+	var g = $("#green").val();
+	var b = $("#blue").val();
 	$("span").css("backgroundColor", "rgb(" + r + "," + g + "," + b + ")");
 }
 
