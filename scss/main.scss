@@ -1,4 +1,6 @@
 @import "normalize";
+@import "variables";
+@import "buttons";
 
 // General ********************
 
@@ -8,14 +10,13 @@ html{
 }
 
 h4{
+	color: $title-color;
 	font-size: 2em;
 	text-align: center;
-	color: #bbb;
 }
 
 .container{
-/*	border: 2px solid steelblue;
-*/	margin: 0 auto;
+	margin: 0 auto;
 	width: 50%;
 }
 
@@ -30,8 +31,8 @@ canvas{
 	border-radius: 10px;
 	box-shadow: 0px 1px 2px;
 	height: 300px;
-	width: 90%;
 	max-width: 400px;
+	width: 90%;
 }
 
 // Palette ***********************
@@ -46,8 +47,8 @@ ul{
 li{
 	border-radius: 100px;
 	display: inline-block;
-	margin: 10px;
 	height: 50px;
+	margin: 10px;
 	width: 50px;
 }
 
@@ -65,26 +66,7 @@ li{
 	background-color: blue;
 }
 
-button{
-	background-color: #F77825;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	display: block;
-	margin: 10px auto;
-	padding: 15px;
-}
-
-#addColor{
-	width: 100%;
-	border-radius: 0 0 5px 5px;
-}
-
 //Color selector *******************
-
-/* *{
-	border: 1px solid gold;
-}*/
 
 span{
 	background-color: #bbb;
@@ -110,8 +92,8 @@ label{
 }
 
 #colorPanel{
-	background-color: #ddd;
-	border-radius: 0 0 5px 5px;
+	background-color: $panel-color;
+	border-radius: 5px 5px;
 }
 
 
