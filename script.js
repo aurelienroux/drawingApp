@@ -1,7 +1,7 @@
 $(function(){
 
 // select/deselect actual color
-$(".palette li").on("click", function(){
+$(".palette").on("click", "li", function(){
 	$("ul li").removeClass("selected");
 	$(this).addClass("selected");
 })
@@ -22,9 +22,6 @@ $("input").on("change", changeColor);
 
 
 $("#addColor").on("click", function(){
-	// var newCol = $("span").css("backgroundColor");
-	// $(".palette").append("<li></li>");
-
 	var r = $("#red").val();
 	var g = $("#green").val();
 	var b = $("#blue").val();
