@@ -10,6 +10,7 @@ html{
 h4{
 	font-size: 2em;
 	text-align: center;
+	color: #bbb;
 }
 
 .container{
@@ -72,6 +73,11 @@ button{
 	display: block;
 	margin: 10px auto;
 	padding: 15px;
+}
+
+#addColor{
+	width: 100%;
+	border-radius: 0 0 5px 5px;
 }
 
 //Color selector *******************
