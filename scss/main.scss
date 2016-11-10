@@ -52,7 +52,6 @@ li{
 
 .selected{
 	border: 5px solid #fff;
-
 }
 
 .red{
@@ -66,4 +65,48 @@ li{
 }
 
 //Color selector *******************
+
+#newColor{
+	width: 30%;
+	/*display: inline-block;*/
+	/*float: left;*/
+}
+
+#colorSelector{
+	width: 60%;
+	/*display: inline-block;*/
+	/*float: left*/
+}
+
+span{
+	height: 100px;
+	width: 100px;
+	display: block;
+	background-color: black;
+}
+
+input{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
