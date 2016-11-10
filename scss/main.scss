@@ -3,8 +3,13 @@
 
 // General ********************
 
-h1{
-	font-size: 4em;
+html{
+	background-color: #bbb;
+}
+
+h4{
+	font-size: 2em;
+	text-align: center;
 }
 
 .container{
@@ -12,16 +17,18 @@ h1{
 	width: 50%;
 }
 
-/**{
-	box-sizing: border-box;
-}*/
-
-
 // Canvas ********************
+.canvas{
+	text-align: center;
+}
+
 canvas{
+	background-color: #fff;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0px 1px 2px;
 	height: 200px;
 	width: 200px;
-	border: 1px solid gold;
 }
 
 // Palette ***********************
