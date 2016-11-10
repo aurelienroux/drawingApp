@@ -460,6 +460,9 @@ li {
   margin: 10px auto;
   padding: 15px; }
 
+#colorPanel * {
+  border: 1px solid gold; }
+
 span {
   height: 100px;
   width: 100px;
@@ -478,5 +481,11 @@ p {
 label {
   width: 60px;
   display: inline-block; }
+
+#addColor {
+  width: 100%;
+  display: block;
+  height: 50px;
+  border-radius: 0 0 5px 5px; }
 
 /*# sourceMappingURL=main.css.map */

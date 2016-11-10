@@ -75,6 +75,10 @@ li{
 
 //Color selector *******************
 
+#colorPanel *{
+	border: 1px solid gold;
+}
+
 span{
 	height: 100px;
 	width: 100px;
@@ -99,7 +103,12 @@ label{
 }
 
 
-
+#addColor{
+	width: 100%;
+	display: block;
+	height: 50px;
+	border-radius: 0 0 5px 5px;
+}
 
 
 
