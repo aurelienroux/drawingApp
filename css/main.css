@@ -429,7 +429,7 @@ canvas {
 ul {
   list-style: none;
   padding: 0;
-  margin: 25px 0 30px;
+  margin: 25px 0 15px;
   text-align: center; }
 
 li {
@@ -451,23 +451,22 @@ li {
 .blue {
   background-color: blue; }
 
-#newColor {
-  width: 30%;
-  /*display: inline-block;*/
-  /*float: left;*/ }
+button {
+  background-color: tomato;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  padding: 15px; }
 
-#colorSelector {
-  width: 60%;
-  /*display: inline-block;*/
-  /*float: left*/ }
+#newColor {
+  border: 1px solid gold; }
 
 span {
-  height: 100px;
-  width: 100px;
-  display: block;
-  background-color: black; }
-
-input {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
   display: block; }
 
 /*# sourceMappingURL=main.css.map */
