@@ -3,7 +3,7 @@
 // General ********************
 
 html{
-	background-color: #bbb;
+	background-color: #222;
 	box-sizing: border-box;
 }
 
@@ -13,8 +13,8 @@ h4{
 }
 
 .container{
-	border: 2px solid steelblue;
-	margin: 0 auto;
+/*	border: 2px solid steelblue;
+*/	margin: 0 auto;
 	width: 50%;
 }
 
@@ -29,7 +29,8 @@ canvas{
 	border-radius: 10px;
 	box-shadow: 0px 1px 2px;
 	height: 300px;
-	width: 300px;
+	width: 90%;
+	max-width: 400px;
 }
 
 // Palette ***********************
@@ -63,8 +64,8 @@ li{
 	background-color: blue;
 }
 
-#newColor{
-	background-color: tomato;
+button{
+	background-color: #F77825;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
@@ -75,12 +76,12 @@ li{
 
 //Color selector *******************
 
-#colorPanel *{
+/* *{
 	border: 1px solid gold;
-}
+}*/
 
 span{
-	background-color: #fff;
+	background-color: #bbb;
 	display: inline-block;
 	height: 100px;
 	margin: 15px;
@@ -102,14 +103,10 @@ label{
 	width: 60px;
 }
 
-
-#addColor{
+#colorPanel{
+	background-color: #ddd;
 	border-radius: 0 0 5px 5px;
-	display: block;
-	height: 50px;
-	width: 100%;
 }
-
 
 
 
