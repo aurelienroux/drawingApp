@@ -15,7 +15,7 @@ h4{
 .container{
 	margin: 0 auto;
 	width: 50%;
-	border: 2px solid gold;
+	border: 2px solid steelblue;
 }
 
 // Canvas ********************
@@ -80,11 +80,17 @@ button{
 }
 
 span{
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 	background-color: #fff;
-	display: block;
+	display: inline-block;
 }
+
+#colorSelector{
+	width: 50%;
+	display: inline-block;
+}
+
 
 
 
