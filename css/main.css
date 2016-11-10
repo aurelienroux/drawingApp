@@ -468,6 +468,7 @@ li {
 
 span {
   background-color: #000;
+  border: 1px solid black;
   display: inline-block;
   height: 100px;
   margin: 15px;

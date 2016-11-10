@@ -20,7 +20,7 @@ function changeColor(){
 }
 $("input").on("change", changeColor);
 
-
+//append new color to palette
 $("#addColor").on("click", function(){
 	var r = $("#red").val();
 	var g = $("#green").val();
@@ -29,6 +29,7 @@ $("#addColor").on("click", function(){
 	var $colorAdd = $("<li></li>");
 	$(".palette").append($colorAdd);
 	$colorAdd.css("backgroundColor", "rgb(" + r + "," + g + "," + b + ")");
+	$colorAdd.click();
 });
 
 
