@@ -54,6 +54,8 @@ $canvas.mousedown(function(e){
 	}
 }).mouseup(function(){
 	mouseDown = false;
+}).mouseleave(function(){
+	$canvas.mouseup();
 });
 
 }); //end of ready function
