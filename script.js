@@ -49,7 +49,7 @@ $canvas.mousedown(function(e){
 		context.lineTo(e.offsetX, e.offsetY);
 		context.strokeStyle = $(".selected").css("backgroundColor");;
 		context.stroke();
-		context.lineWidth = 50;
+		context.lineWidth = 7;
 		lastEvent = e;
 	}
 }).mouseup(function(){
