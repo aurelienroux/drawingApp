@@ -1,5 +1,9 @@
 $(function(){
-var context = $("canvas")[0].getContext("2d");
+// var colorDef = $(".selected").css("backgroundColor");
+var $canvas = $("canvas");
+var context = $canvas[0].getContext("2d");
+var lastEvent;
+var mouseDown = false;
 
 // select/deselect actual color*****************
 $(".palette").on("click", "li", function(){
@@ -35,19 +39,20 @@ $("#addColor").on("click", function(){
 
 //canvas ***************************
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$canvas.mousedown(function(e){
+	lastEvent = e;
+	mouseDown = true;
+}).mousemove(function(e){
+	if(mouseDown) {
+		context.beginPath();
+		context.moveTo(lastEvent.offsetX, lastEvent.offsetY);
+		context.lineTo(e.offsetX, e.offsetY);
+		context.strokeStyle = $(".selected").css("backgroundColor");;
+		context.stroke();
+		lastEvent = e;
+	}
+}).mouseup(function(){
+	mouseDown = false;
+});
 
 }); //end of ready function
